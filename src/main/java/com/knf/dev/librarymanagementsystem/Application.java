@@ -21,14 +21,14 @@ import com.knf.dev.librarymanagementsystem.service.BookService;
 @SpringBootApplication
 public class Application {
 
-	// @Autowired
-	// private BCryptPasswordEncoder passwordEncoder;
+	@Autowired
+	private BCryptPasswordEncoder passwordEncoder;
 
-	// @Autowired
-	// private BookService bookService;
+	@Autowired
+	private BookService bookService;
 
-	// @Autowired
-	// private UserRepository userRepository;
+	@Autowired
+	private UserRepository userRepository;
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
